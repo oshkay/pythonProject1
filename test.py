@@ -1,0 +1,2 @@
+import food
+food.favoriteFood()
