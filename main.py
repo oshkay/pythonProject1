@@ -1,5 +1,7 @@
 import Kitchen
 import sys
+import os, os.path
+
 # from dadata import Dadata
 # This is a sample Python script.
 # Press Shift+F10 to execute it or replace it with your code.
@@ -29,7 +31,10 @@ if __name__ == '__main__':
 
 
     #print(dir(Foods))
-    print("%s +++" %sys.argv)
+    #print("%s +++" %sys.argv)
 
-    r = Kitchen.Recipe()
-    print(r.rs)
+    #r = Kitchen.Recipe()
+    #print(r.rs)
+    print(os.getcwd())
+    print(os.path.split(os.getcwd()))
+    print(os.stat("."))
